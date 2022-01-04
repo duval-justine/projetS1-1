@@ -131,6 +131,10 @@
     border: none;
 } 
 
+#line_film {
+    margin-bottom: 30px;
+}
+
 /* Images */
 
 .art_entete {
