@@ -1,0 +1,71 @@
+.pa_debut {
+    background-image: url(../../../public/img/images/photo_fond_accueil.jpg);
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.header_accueil {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btn-accueil {
+    background-color: var(--gris-fonce);
+}
+
+.pa_header_title {
+    font-family: var(--font-marck);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px; 
+    text-align: center;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 100px;
+}
+
+.pa_fleche {
+    margin-top: 353px;
+}
+
+.pa_title {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: var(--gris-fonce);
+}
+
+.pa_line_1 {
+    width: 276px;
+    height: 3px;
+    background: var(--jaune);
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-right: 0px;
+    border: none;
+}
+
+.pa_line_2 {
+    width: 112px;
+    height: 3px;
+    background: var(--jaune-orange);
+    margin-bottom: 35px;
+    margin-right: 0px;
+    border: none; 
+}
+
+.pa_legende_1 {
+    margin-bottom: 35px;
+}
+
+.pa_btn {
+    margin-top: 35px;
+}
+
+.btn_fin {
+    margin-bottom: 35px;
+}

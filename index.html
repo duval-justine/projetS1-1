@@ -13,17 +13,18 @@
     
 </head>
 <body>
+    <div class="pa_debut">
     <!-- En tête de la page -->
-    <header>
-        <div class="header_accueil_start">
+    <header class="header_accueil">
+        <div class="header_start">
             <a href="index.html">
-                <img src="public/img/icones/logo.svg" alt="Logo du site (bulding)">
+                <img class="header_logo" src="public/img/icones/logo.svg" alt="Logo du site (bulding)">
             </a>
         </div>
         <!-- Début du Menu -->
         <div class="header_end">
             <!-- Bouton du menu -->
-            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+            <button class="header__menu-btn menu-btn " aria-label="menu" aria-expanded="false" aria-controls="mainNav"
                     @click="menuIsOpen = !menuIsOpen" 
                     :class="menuIsOpen && 'menu-btn--open'">
                 <span class="menu-btn__bar"></span>
@@ -67,43 +68,43 @@
 
     <!-- Contenu de la page -->
     <main>
-        
+            <!-- 1er Partie de la Page -->
+            <div>
+                <h1 class="pa_header_title">Art <br> & Pouvoir</h1>
+                <img class="pa_fleche" src="public/img/icones/fleche_vers_le_bas.svg" alt="Flèche pointant vers le bas">
+            </div>
+            <!-- Fin de la 1er Partie de la Page-->
+    </div>
         <div class="background">
-        <!-- 1er Partie de la Page -->
-        <div>
-            <h1>Art & Pouvoir</h1>
-            <img src="public/img/icones/fleche_vers_le_bas.svg" alt="Flèche pointant vers le bas">
-        </div>
-        <!-- Fin de la 1er Partie de la Page-->
+            <!-- Partie sur le livre argumenté -->
+            <div>
+                <h2 class="pa_title">LE LIVRE AUGMENTÉ</h2>
+                <hr class="pa_line_1">
+                <hr class="pa_line_2">
+                <figure>
+                    <img src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
+                    <figcaption class="pa_legende_1">Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
+                </figure>
+                <hr class="pa_line_1">
+                <p>Découvrez New York à travers Central Park, lelivre bouleversant et imprévisible de Guillaume
+                    Musso. Faites également preuve d'intérêt pour LeLoup de Wall Street, de Martin Scorsese, se
+                    déroulant en partie à Manhattan. Allez même plus loin en voyageant au cœur même de certains
+                    lieux culturels de Manhattan…</p>
+            </div>
+            <!-- Fin de la partie dur le livre argumenté -->
 
-        <!-- Partie sur le livre argumenté -->
-        <div>
-            <h2>LE LIVRE AUGMENTÉ</h2>
-            <hr>
-            <hr>
-            <figure>
-                <img src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
-                <figcaption>Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
-            </figure>
-            <hr>
-            <p>Découvrez New York à travers Central Park, lelivre bouleversant et imprévisible de Guillaume
-                Musso. Faites également preuve d'intérêt pour LeLoup de Wall Street, de Martin Scorsese, se
-                déroulant en partie à Manhattan. Allez même plus loin en voyageant au cœur même de certains
-                lieux culturels de Manhattan…</p>
-        </div>
-        <!-- Fin de la partie dur le livre argumenté -->
-
-        <!-- 3ème Partie -->
-        <div>
-            <a href="article-1.html"><img src="public/img/icones/bouton_article_1.svg" alt="Bouton article Central Park : Une immersion dans New York
-                par le biais de l’aventure d’Alice Schäfer."></a>
-            <a href="article-2.html"><img src="public/img/icones/bouton_article_2.svg" alt="Bouton article Le Loup de Wall Street :
-                Une intrigue tirée de l’histoire
-                vraie de Jordan Belfort, surnommé le Loup de Wall Street, évoluant à Manhattan"></a>
-            <a href="article-3.html"><img src="public/img/icones/bouton_article_3.svg" alt="Bouton article New York, ville des arts : 
-                Zoom sur différents lieux culturels emblématiques de Manhattan, quartier dynamique de la ville de New York."></a>
-        </div>
-        <!-- Fin de la 3ème Partie -->     
+            <!-- 3ème Partie -->
+            <div>
+                <a href="article-1.html"><img class="pa_btn" src="public/img/icones/bouton_article_1.svg" alt="Bouton article Central Park : Une immersion dans New York
+                    par le biais de l’aventure d’Alice Schäfer."></a>
+                <a href="article-2.html"><img class="pa_btn"  src="public/img/icones/bouton_article_2.svg" alt="Bouton article Le Loup de Wall Street :
+                    Une intrigue tirée de l’histoire
+                    vraie de Jordan Belfort, surnommé le Loup de Wall Street, évoluant à Manhattan"></a>
+                <a href="article-3.html"><img class="pa_btn btn_fin"  src="public/img/icones/bouton_article_3.svg" alt="Bouton article New York, ville des arts : 
+                    Zoom sur différents lieux culturels emblématiques de Manhattan, quartier dynamique de la ville de New York."></a>
+            </div>
+            <!-- Fin de la 3ème Partie -->  
+        </div>   
     </main>
     <!-- Fin du contenu de la page -->
 
