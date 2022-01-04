@@ -1,10 +1,10 @@
-.form__text {
+.form ::placeholder{
     font-family: var(--pt-sans);
     color: var(--jaune-orange);
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
-    margin-left: 37px;
+    padding-left: 6px;
 }
 
 .form__rectangle {
