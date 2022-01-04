@@ -12,3 +12,6 @@
 
 /* Layout */
 @import "layout/header.css";
+
+/* Components */
+@import "components/menu.css";

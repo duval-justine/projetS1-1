@@ -1,0 +1,89 @@
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    top: 0; bottom: 0;
+    left: 0; right : 0;
+    background-color: var(--background);
+    transition: all .4s ease-in-out;
+    z-index: 2;
+}
+
+/* JavaScript */
+.menu--open {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Mise en forme */
+.menu__item {
+    margin-top: 15%;
+}
+
+.menu__link {
+    color: var(--gris-texte);
+    text-decoration: none;
+    font-size: var(--titre-menu); 
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 39px;
+}
+
+/* Bouton menu */
+.menu-btn {
+    position: relative;
+    z-index: 3;
+    width: 35px;  
+}
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: '';
+    background: var(--jaune-orange);
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all .4s ease-in-out;
+}
+  
+  .menu-btn__bar::before {
+    top: -10px;
+}
+  
+  .menu-btn__bar::after {
+    top: 10px;
+}
+  
+  
+  .menu__start {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      height: 80vh;
+}
+  
+  /* Transformation du bouton en croix */
+  .menu-btn--open .menu-btn__bar,
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    transform: rotate(135deg);
+}
+  
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+  
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar,
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::before,
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::after {
+    background-color: var(--jaune);
+    
+}

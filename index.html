@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen && 'noscroll'">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
 
     <!-- Déclaration de la feuille de style -->
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
     
 </head>
 <body>
@@ -22,35 +23,37 @@
         <!-- Début du Menu -->
         <div class="header_end">
             <!-- Bouton du menu -->
-            <button>
-                <span>/</span>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                    @click="menuIsOpen = !menuIsOpen" 
+                    :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
             </button>
             <!-- Navigation du menu -->
-            <nav>
-                <ul>
+            <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+                <ul class="menu__list list-unstyled">
                     <hr>
-                    <li>
-                        <a href="article-1.html">Central Park Le livre</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="article-1.html">Central Park Le livre</a>
                     </li>
                     <hr>
                     <hr>
-                    <li>
-                        <a href="article-2.html">Le loup de Wall Street Le film </a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="article-2.html">Le loup de Wall Street Le film </a>
                     </li>
                     <hr>
                     <hr>
-                    <li>
-                        <a href="article-3.html">L’art à New York Le mini-guide </a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="article-3.html">L’art à New York Le mini-guide </a>
                     </li>
                     <hr>
                     <hr>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="contact.html">Contact</a>
                     </li>
                     <hr>
                     <hr>
-                    <li>
-                        <a href="autresprojets.html">Autres projets</a>
+                    <li class="menu__item">
+                        <a class="menu__link" href="autresprojets.html">Autres projets</a>
                     </li>
                     <hr>
                 </ul>
