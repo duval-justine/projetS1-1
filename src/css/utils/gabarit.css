@@ -16,7 +16,7 @@
 
 .images1 {
 	width: 6600px;
-	height: 324px;
+	height: 385px;
 	left:0;
 }
 
@@ -32,3 +32,6 @@
 	z-index: 0;
 }
 
+.car_fond {
+	background-color: var(--background);
+}
