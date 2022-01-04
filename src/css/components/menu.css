@@ -47,6 +47,7 @@
   background: var(--gris-clair);
   margin-left: 0px;
   margin-top: 35px;
+  border: none;
 }
 
 .menu_pt_jaune {
@@ -56,6 +57,7 @@
   opacity: 0.5;
   margin-left: 0px;
   margin-top: 35px;
+  border: none;
 }
 
 .menu_jaune {
@@ -64,6 +66,7 @@
   background: var(--jaune-orange);
   margin-left: 0px;
   margin-top: 13px;
+  border: none;
 }
 
 /* Bouton menu */

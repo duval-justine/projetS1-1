@@ -1,6 +1,9 @@
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure {
@@ -11,5 +14,6 @@ figcaption {
     font-family: var(--font-pt-sans);
     font-style: italic;
     font-size: var(--légende);
-    color: var(--black)
+    color: var(--black);
+    text-align: center;
 }

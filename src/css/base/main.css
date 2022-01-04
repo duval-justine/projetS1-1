@@ -28,5 +28,49 @@ h1 {
   font-size: var(--titre-du-site-header);
   color: var(--jaune);
   text-align: center;
+  font-weight: normal;
   margin-top: 31px;
+}
+
+h2 {
+  font-family: var(--font-pt-sans);
+  font-size: var(--titre-du-site-header);
+  color: var(--jaune-orange);
+  text-align: center;
+  margin-top: 23px;
+  font-style: bold;
+}
+
+h3 {
+  font-family: var(--font-pt-sans);
+  font-size: var(--titre-du-site-header);
+  color: var(--jaune-orange);
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: var(--font-pt-sans);
+  font-size: var(--titre-menu);
+  color: var(--jaune-orange);
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: var(--font-pt-sans);
+  font-style: italic;
+  font-weight: bold;
+  font-size: var(--sous-titre);
+  color: var(--jaune);
+  margin-left: 18px;
+  margin-top: 35px;
+}
+
+p {
+  padding-right: 13px;
+  padding-left: 14px;
+  margin-top: 24px;
 }

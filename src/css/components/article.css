@@ -1,0 +1,162 @@
+/* Titres */ 
+
+.art_title {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: var(--titre-2);
+    color: var(--jaune);
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}    
+
+.art_sub-title {
+    font-family: var(--font-pt-sans);
+    font-style: italic;
+    font-weight: bold;
+    font-size: var(--sous-titre);
+    color: var(--jaune);
+    margin-left: 18px;
+}
+
+.art_title-mini {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--jaune);
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+
+/* Textes */
+
+.art_intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.art_quote_text {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--black);
+    margin-top: -18px;
+}
+
+.art_cit-1,
+.art_cit-2,
+.art_cit-3 {
+    font-family: var(--font-pt-serif);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.art_cit-1 {
+    text-align: center;
+}
+
+#cit_debut {
+    margin-top: 33px;
+}
+
+.art_cit-2 {
+    margin-top: -15px;
+}
+
+.art_cit-3 {
+    margin-left: 38px;
+    margin-top: -15px;
+    margin-bottom: -24px;
+} 
+
+/* Lignes */
+
+.art_line_1 {
+    width: 345px;
+    height: 3px;
+    background: var(--gris-clair);
+    margin-left: 0px;
+    margin-top: 9px;
+    margin-bottom: -26px;
+    border: none;
+}
+
+.art_line_2 {
+    width: 230px;
+    height: 2px;
+    background: var(--jaune);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+    border: none;
+}
+
+.art_line_3 {
+    width: 341px;
+    height: 2px;
+    background: var(--jaune);
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    border: none;
+}
+
+.art_line_4 {
+    width: 130px;
+    height: 2px;
+    background: var(--jaune);
+    margin-top: 14px;
+    margin-bottom: 24px;
+    align-items: center;
+    border: none;
+} 
+
+/* Images */
+
+.art_entete {
+    margin-top: -24px;
+    background-color: var(--gris-fonce);
+}
+
+.art_quote-1 {
+margin-left: 7px;
+margin-top: 35px;
+}
+
+.art_quote-2 {
+    margin-right: 12px;
+    margin-top: -24px;
+}
+
+.text_av_img {
+    margin-bottom: 50px;
+}
+
+/* Boutons */
+
+.art_btn {
+    font-family: var(--font-pt-serif);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--jaune);
+    text-align: center;
+}
+
+#btn-1 {
+padding: 45px;
+}
+ #btn-2 {
+     padding: 45px;
+ }
+
+
+
+
