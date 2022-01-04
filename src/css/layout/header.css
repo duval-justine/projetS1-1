@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--gris-fonce);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+}
+   
+.header__start,
+.header__end {
+  display: flex;
+}
+.header__start{
+  align-items: center;
+}
+
+.header_end {
+    margin-top: 32px;
+    margin-right: 12px;
+}
+
+.header_logo {
+    margin-left: 11px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
