@@ -1,0 +1,20 @@
+/* En tête */
+
+.ap_entete {
+    background-color: var(--gris-fonce);
+    margin-top: -24px;
+    padding-bottom: 9px;
+}
+
+.ap_title {
+    padding-top: 54px;
+}
+
+.ap_line_1 {
+    width: 100%;
+    height: 1px;
+    background: var(--jaune-orange);
+    margin-top: 30px;
+    border: none;
+}
+
