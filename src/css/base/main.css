@@ -1,0 +1,18 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--font-pt-serif);
+  }
