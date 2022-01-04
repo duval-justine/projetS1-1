@@ -34,11 +34,14 @@
 .menu_header {
   display: flex;
   justify-content: space-between;
+  margin-left: 104px;
+  margin-top: -32px;
 }
 
 #menu_logo {
   margin-left: 11px;
-  margin-top: 17px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .menu_gris {
