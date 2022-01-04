@@ -58,7 +58,6 @@ h4 {
   text-align: center;
   font-style: italic;
   font-weight: normal;
-  padding-bottom: 11px;
 }
 
 h5 {
@@ -75,4 +74,9 @@ p {
   padding-right: 16px;
   padding-left: 16px;
   margin-top: 24px;
+}
+
+.background {
+  background-color: var(--background);
+  overflow: hidden;
 }

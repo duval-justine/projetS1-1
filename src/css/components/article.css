@@ -157,6 +157,7 @@
 .art_entete {
     margin-top: -24px;
     background-color: var(--gris-fonce);
+    overflow: hidden;
 }
 
 .art_quote-1 {
