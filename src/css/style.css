@@ -5,6 +5,7 @@
 
 /* Utils */
 @import "utils/variables.css";
+@import "utils/gabarit.css";
 
 /* Base */
 @import "base/main.css";
