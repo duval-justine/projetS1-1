@@ -31,6 +31,41 @@
     margin-left: 39px;
 }
 
+.menu_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu_logo {
+  margin-left: 11px;
+  margin-top: 17px;
+}
+
+.menu_gris {
+  width: 239px;
+  height: 2px;
+  background: var(--gris-clair);
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+.menu_pt_jaune {
+  width: 160px;
+  height: 2px;
+  background: var(--jaune-orange);
+  opacity: 0.5;
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+.menu_jaune {
+  width: 336px;
+  height: 3px;
+  background: var(--jaune-orange);
+  margin-left: 0px;
+  margin-top: 13px;
+}
+
 /* Bouton menu */
 .menu-btn {
     position: relative;
@@ -87,3 +122,5 @@
     background-color: var(--jaune);
     
 }
+
+
