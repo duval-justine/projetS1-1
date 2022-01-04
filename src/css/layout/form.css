@@ -1,0 +1,31 @@
+.form__text {
+    font-family: var(--pt-sans);
+    color: var(--jaune-orange);
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 37px;
+}
+
+.form__rectangle {
+    border-radius: 5px;
+    background: var(--gris-fonce);
+    border: none;
+    margin-left: 31px;
+    height: 30px;
+    width: 313px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle__message {
+    height: 89px;
+}
+
+.send {
+    background: var(--gris-fonce);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 69px;
+    height: 36px;
+    color: var(--jaune-orange);
+}
