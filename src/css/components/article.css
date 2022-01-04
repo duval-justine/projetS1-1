@@ -87,7 +87,18 @@
     margin-left: 38px;
     margin-top: -15px;
     margin-bottom: -24px;
-} 
+}
+
+.art-3_text {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: -16px;
+}
+
+.color_text {
+    color: var(--jaune);
+    text-decoration: underline;
+}
 
 /* Lignes */
 
@@ -166,7 +177,7 @@ margin-top: 35px;
     color: var(--jaune);
     display: block;
     text-align: center;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 
 
