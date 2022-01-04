@@ -31,7 +31,10 @@
     margin-right: 30px;
 }
 
-
+#art_3_entete {
+    margin-top: -20px;
+    margin-bottom: 99px;
+}
 /* Textes */
 
 .art_intro {
