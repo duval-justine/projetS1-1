@@ -51,6 +51,16 @@
     margin-top: -18px;
 }
 
+.art_2_quote {
+    font-family: var(--font-pt-sans);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--black);
+    margin-top: -18px;
+    text-align: center;
+}
+
 .art_cit-1,
 .art_cit-2,
 .art_cit-3 {
