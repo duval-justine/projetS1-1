@@ -184,7 +184,33 @@ margin-top: 35px;
     color: var(--jaune);
     display: block;
     text-align: center;
-    /*border: 1px solid #000;*/
+    border: 2px dashed var(--gris-clair);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 22px;
+}
+
+.btn-marg {
+    margin-top: 50px;
+}
+
+.art_btn_lire {
+    font-family: var(--font-pt-serif);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--jaune);
+    display: block;
+    text-align: center;
+    border: 2px dashed var(--gris-clair);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 288px;
+    margin-right: 16px;
+    padding: 7px;
+    margin-bottom: 15px;
 }
 
 
