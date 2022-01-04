@@ -1,0 +1,28 @@
+:root {
+/* Color styles */
+--gris-fonce: rgba(112, 112, 112, 1);
+--background: rgba(245, 241, 241, 1);
+--jaune-orange: rgba(243, 189, 54, 1);
+--jaune: rgba(243, 199, 54, 1);
+--black: rgba(0, 0, 0, 1);
+--gris-clair: rgba(165, 163, 163, 1);
+--gris-texte: rgba(122, 122, 131, 1);
+
+/* Text-size styles */
+--titre-du-site-header: 30px;
+--titre-menu: 24px;
+--sous--titre--menu: 24px;
+--titre-du-site-page-daccueil: 50px;
+--body-1: 14px;
+--body-2: 14px;
+--légende: 14px;
+--titre-1: 26px;
+--titre-2: 18px;
+--sous--titre: 18px;
+
+/* Font-family styles */
+--font-marck: 'Marck Script', cursive;
+--font-pt-sans: 'PT Sans', sans-serif;
+--font-pt-serif: 'PT Serif', serif;
+
+}
