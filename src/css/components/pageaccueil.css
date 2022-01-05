@@ -14,9 +14,7 @@
     padding: 10px;
 }
 
-.btn-accueil {
-    background-color: var(--gris-fonce);
-}
+/* Titres et Textes */
 
 .pa_header_title {
     font-family: var(--font-marck);
@@ -29,10 +27,6 @@
     margin-top: 100px;
 }
 
-.pa_fleche {
-    margin-top: 353px;
-}
-
 .pa_title {
     font-family: var(--font-pt-sans);
     font-style: normal;
@@ -41,6 +35,12 @@
     text-align: center;
     color: var(--gris-fonce);
 }
+
+.pa_legende_1 {
+    margin-bottom: 35px;
+}
+
+/* Lignes */
 
 .pa_line_1 {
     width: 276px;
@@ -61,16 +61,14 @@
     border: none; 
 }
 
-.pa_legende_1 {
-    margin-bottom: 35px;
-}
+/* Boutons */
 
-.pa_btn {
-    margin-top: 35px;
-}
+.pa_fleche {
+    margin-top: 353px;
+} 
 
-.btn_fin {
-    margin-bottom: 35px;
+.btn-accueil {
+    background-color: var(--gris-fonce);
 }
 
 /* Boutons vers les articles */

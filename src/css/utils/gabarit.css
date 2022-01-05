@@ -1,3 +1,5 @@
+/* Carousel */
+
 .carrousel1,
 .carrousel2 {
 	grid-column: 2;
@@ -41,6 +43,8 @@
 	background-color: var(--background);
 	height: 30px;
 }
+
+/* Animation légende */
 
 .legendetexte {
 	position: relative;
