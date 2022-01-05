@@ -39,6 +39,7 @@
 
 .car_fond {
 	background-color: var(--background);
+	height: 30px;
 }
 
 .legendetexte {
