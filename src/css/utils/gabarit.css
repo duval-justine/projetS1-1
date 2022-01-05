@@ -1,4 +1,5 @@
-.carrousel1 {
+.carrousel1,
+.carrousel2 {
 	grid-column: 2;
 	grid-row: 2;
 	width: 197px;
@@ -8,24 +9,28 @@
 	margin-left: 89px;
 }
 
-.droite1 {
+.droite1,
+.droite2 {
 	grid-row: 2;
 	grid-column: 1;
 	width: 40px;
 }
 
-.images1 {
+.images1, 
+.images2 {
 	width: 6600px;
 	height: 385px;
 	left:0;
 }
 
-.images1 img {
+.images1 img,
+.images2 img {
 	width: 197px;
 	height: 324px;
 }
 
-.image1 {
+.image1,
+.image2 {
 	position: absolute;
 	top:0;
 	left:0;
