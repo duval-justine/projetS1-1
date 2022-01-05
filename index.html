@@ -87,10 +87,15 @@
                 <h2 class="pa_title" id="btn-fleche">LE LIVRE AUGMENTÉ</h2>
                 <hr class="pa_line_1">
                 <hr class="pa_line_2">
-                <figure>
-                    <img src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
-                    <figcaption class="pa_legende_1">Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
-                </figure>
+                <div class="visionneuse">
+                    <figure class="legende legendeimage"
+                            x-on:mouseover="monterLegende('capt1');"
+                            x-on:mouseleave="descendreLegende();">
+                        <img src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
+                        <figcaption class="legendetexte capt1">Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
+                    </figure>
+                </div>
+                </div>
                 <hr class="pa_line_1">
                 <p>Découvrez New York à travers Central Park, lelivre bouleversant et imprévisible de Guillaume
                     Musso. Faites également preuve d'intérêt pour LeLoup de Wall Street, de Martin Scorsese, se

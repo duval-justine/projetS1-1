@@ -1,3 +1,5 @@
+/* Carousel de l'article 1 */
+
 function carrousel1() {
     
 	var images1 = document.querySelectorAll('.image1');
@@ -35,6 +37,8 @@ function carrousel1() {
         }
     });
 }
+
+/* Carousel de l'article 2 */
 
 function carrousel2() {
 	var images2 = document.querySelectorAll('.image2');
@@ -81,4 +85,28 @@ function carrousel2() {
             return (10*delta)+(9*d);
         }
     });
+}
+
+/* Légende */
+
+function monterLegende(c) {
+    document.querySelector('.'+c).style.display = 'block';
+    return anime({
+        targets: '.'+c,
+        translateY: '-3em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende() {
+    document.querySelector('.legendetexte').style.display = 'block';
+    return anime({
+        targets: '.legendetexte',
+        translateY: '0em',
+        autoplay: true,
+        easing: 'linear',
+        duration: 1000
+    }).play;
 }

@@ -40,3 +40,17 @@
 .car_fond {
 	background-color: var(--background);
 }
+
+.legendetexte {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	line-height: 3em;
+	color: var(--black);
+	background-color: var(--background);
+	top: 0;
+	display: none;
+}
