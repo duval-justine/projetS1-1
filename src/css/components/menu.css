@@ -85,6 +85,13 @@
   display: block;
 }
 
+.btn-accueil {
+  background-color: var(--gris-fonce);
+  border-radius: 5px;
+  padding: 5px;
+  height: 45px;
+}
+
 /* Bouton menu */
 .menu-btn {
     position: relative;
