@@ -1,6 +1,7 @@
 .pa_debut {
     background-image: url(../../../public/img/images/photo_fond_accueil.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
     padding-bottom: 25px;
