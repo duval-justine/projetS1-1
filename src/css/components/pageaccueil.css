@@ -71,3 +71,88 @@
 .btn_fin {
     margin-bottom: 35px;
 }
+
+/* Boutons vers les articles */
+
+.pa_btn-art {
+    display: block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pad {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.pa_btn-fig {
+    border: 1px dashed var(--gris-clair);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+}
+
+.pa_btn-img {
+    width: 26.667vw;
+    border-radius: 10px 0px 0px 10px;
+    flex: none;
+}
+
+.pa_btn-img-2 {
+    width: 33.067vw;
+    border-radius: 0px 10px 10px 0px;
+    flex: none;
+}
+
+.pa_btn-title {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--gris-texte);
+    margin-top: 7px;
+    flex: auto;
+    text-align: left;
+}
+
+.pa_btn-subtitle {
+    font-family: var(--font-pt-sans);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: -10px;
+    color: var(--gris-texte);
+    text-align: left;
+} 
+
+.pa_btn-line {
+    width: 85px;
+    height: 2px;
+    background: var(--jaune);
+    border: none;
+    margin-top: -10px;
+    margin-left: 14px;
+}
+
+.pa_btn-text {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--black);
+    text-align: left;
+    margin-right: 35x;
+    margin-top: 11px;
+}
+
+.pa_btn-plus {
+    font-family: var(--font-pt-sans);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--jaune);
+    text-align: right;
+    margin-right: 14px;
+}
