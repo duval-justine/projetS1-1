@@ -87,14 +87,17 @@
                 <h2 class="pa_title" id="btn-fleche">LE LIVRE AUGMENTÉ</h2>
                 <hr class="pa_line_1">
                 <hr class="pa_line_2">
-                <div class="visionneuse">
-                    <figure class="legende legendeimage"
-                            x-on:mouseover="monterLegende('capt1');"
-                            x-on:mouseleave="descendreLegende();">
-                        <img src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
-                        <figcaption class="legendetexte capt1">Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
+                    <figure>
+                        <div x-data="{picture:true}">
+                            <div x-on:click="picture ? picture=false : picture=true;">
+                                <img x-show="picture" src="public/img/images/livre_1_accueil.jpg" alt="Couverture du livre Central Park de Musso">
+                            </div>
+                            <div x-on:click="picture ? picture=false : picture=true;">
+                                <img x-show="!picture" src="public/img/images/livre_2_accueil.jpg" alt="Couverture du livre Central Park de Musso">
+                            </div>
+                        </div>
+                        <figcaption>Première de couverture du roman Central Park de Guillaume Musso.</figcaption>
                     </figure>
-                </div>
                 </div>
                 <hr class="pa_line_1">
                 <p>Découvrez New York à travers Central Park, lelivre bouleversant et imprévisible de Guillaume
