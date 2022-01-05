@@ -14,9 +14,11 @@
    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 
 </head>
-<body>
+<body x-data="{ atTop: true }">
     <!-- En tête de la page -->
-    <header class="header">
+    <header class="header"
+            @scroll.window="atTop = ( window.scrollY > 100 ? false : true )"
+            :class="{ 'header--atTop' : !atTop }">
         <div class="header_start">
             <a href="index.html">
                 <img class="header_logo" src="public/img/icones/logo.svg" alt="Logo du site (bulding)">
