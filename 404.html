@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<title>404 - Page Non trouvée</title>
+
+<link rel="stylesheet" href="src/css/style.css">
+
+<h1 class="h1_404">404</h1>
+<h2 class="h2_404">Oups...</h2>
+<h3 class="h3_404"> La page que vous cherchez est introuvable !</h3>
+<form class="form_404" action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:105-projet-14.jduval.fr'">
+    <label class="form_text_404" for="q">Texte à chercher :</label>
+    <br>
+    <input class="form_rectangle_404" type="text" id="q" name="q" x-model="q">
+    <br>
+    <button class="form_btn_404" type="submit">Rechercher</button>
+</form>
+<hr class="grd_line_404">
+<ul class="ul_404 list-unstyled">
+    <li class="list_404 ">
+        <a class="items_404" href="index.html">Page d'accueil</a>
+    </li>
+    <li class="list_404">
+        <a class="items_404" href="article-1.html">Central Park</a>
+    </li>
+    <li class="list_404">
+        <a class="items_404" href="article-2.html">Le Loup de Wall Street</a>
+    </li>
+    <li class="list_404">
+        <a class="items_404" href="article-3.html">L'art à New York</a>
+    </li>
+    <li class="list_404">
+        <a class="items_404" href="contact.html">Contact</a>
+    </li>
+    <li class="list_404">
+        <a class="items_404" href="autresprojets.html">Autres Projets</a>
+    </li>
+</ul>
